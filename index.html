@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard HTML & CSS Inspired From Dribble</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__brand">
+                    <button class="grid-list-button" id="nav-toggle">
+                        <span class="icon">
+                            <span class="dots">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                            <span class="lines">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                        </span>
+                    </button>
+                    <a href="#" class="nav__logo">Maz Develop</a>
+                </div>
+                <div class="nav__list">
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="search-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="mail-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Messenger</span>
+                    </a>
+                    <div class="nav__link collapse">
+                        <ion-icon name="heart-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Projects</span>
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="nav__link">
+                        <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Settings</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="nav__link">
+                <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                <span class="nav__name">Logout</span>
+            </a>
+        </nav>
+    </div>
+    <!-- End Sidebar -->
+    <div class="wrapper" id="body-pd">
+        <section class="profile" id="body-pd">
+            <div class="records">
+                <h3>world free school education network</h3>
+                <p>Statistics</p>
+                <div>
+                    <div class="marks">
+                        <h1>76</h1>
+                        <p>Highest <br> mark</p>
+                    </div>
+                    <div class="marks">
+                        <h1 class="blue">567</h1>
+                        <p>Passed <br> the exam</p>
+                    </div>
+                    <div class="marks">
+                        <h1>6</h1>
+                        <p>Retake</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <center>
+                    <div class="profilepic">
+                        <img src="" alt="">
+                    </div>
+                    <h3>Welcome</h3>
+                    <span>Lee Yoon Song!</span><br>
+                    <p>High School of Performing Arts <br><span>Korea , Seoul</span> </p>
+                </center>
+            </div>
+        </section><!-- profile section   -->
+        <!-- details section   -->
+        <section class="details">
+            <div class="history">
+                <h3>Exam results:<span> Theater history</span></h3>
+                <div class="list b-bottom">
+                    <img src="https://images.unsplash.com/photo-1582394383229-06845689be18?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                        alt="" class="pic">
+                    <div class="list-detail">
+                        <h3>Samantha Rose</h3>
+                        <p>Group: <span>12</span></p>
+                    </div>
+                    <div class="score">
+                        <p>Score<br><span>100</span></p>
+                    </div>
+                </div>
+                <div class="list b-bottom">
+                    <img src="https://images.unsplash.com/photo-1586874191532-70a755a14317?ixlib=rb-1.2.1&auto=format&fit=crop&w=632&q=80"
+                        alt="" class="pic">
+                    <div class="list-detail">
+                        <p>Lee Yoon Song</p>
+                        <p>Group: <span>12</span></p>
+                    </div>
+                    <div class="score grey">
+                        <p>Score<br><span>89.</span><span class="orange">4 mistakes</span></p>
+                    </div>
+                </div>
+
+                <div class="list b-bottom">
+                    <img src="https://images.unsplash.com/photo-1517454601008-01f48cbd5c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80"
+                        alt="" class="pic">
+                    <div class="list-detail">
+                        <p>Tiana Donovan</p>
+                        <p>Group: <span>12</span></p>
+                    </div>
+                    <div class="score grey">
+                        <p>Score<br><span>65.</span><span class="orange">9 mistakes</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <span>Education</span>
+                <div class="todo ">
+                    <div class="todoOne">
+                        <h3>Timetable</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, iure?</p>
+                    </div>
+                    <div class="todoTwo"><span>Today ,Sep 27</span><i class="far fa-calendar"></i></div>
+                    <div class="todoThree">
+                        <p><span>Now:</span>The art of public speaking</p>
+                        <div class="justcenter">
+                            <span>9:30</span>
+                            <p>Checking Home work</p>
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                        <div class="justcenter">
+                            <span>10:00</span>
+                            <p>Practival exercise Next</p>
+                            <i class="far fa-circle"></i>
+                        </div>
+                    </div>
+                    <div class="todoFour">
+                        <p>Next:<span>Vocals</span></p>
+                        <span class="orange fs">12:00</span>
+                        <p class="fs fw">Homework</p>
+                        <p class="fs">Ex 5-10 , p 65</p>
+                    </div>
+                </div>
+            </div>
+            <div class="notification">
+                <div class="message">
+                    <div>
+                        <h3>Your Diary</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="chevron"><i class="fas fa-chevron-right"></i></div>
+                </div>
+                <div class="message bg-black">
+                    <div class="white">
+                        <h3>Homework</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                    <div class="chevron"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!--   information section -->
+        <section class="information">
+            <div class="blog ">
+
+                <img src="https://cdn.dribbble.com/users/1626229/screenshots/12570549/media/7da0e33ba3a8c299d38e22ad07ab7f73.jpg"
+                    alt="">
+                <div class="blog-list">
+                    <h3>Blog</h3><br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum.
+                    </p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus!</p>
+                    <div class="bg-yellow">
+                        <span>Sep 25, 8:00 AM</span>
+                        <div>
+                            <h3 class="white"> Free study condition in Poland</h3>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="communication">
+                <h3 class="grey"> Communication</h3>
+                <div class="action">
+                    <button class="bg-orange white">Your Groups </button>
+                    <button class="bg-grey lightgrey "> Your Events</button>
+                    <button class="blue">Create new +</button>
+                </div>
+
+                <div class="list">
+                    <img class="pic"
+                        src="https://images.unsplash.com/photo-1559733578-691db61b2288?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80"
+                        alt="" srcset="">
+                    <div class="list-details">
+                        <h3>Acting Department</h3>
+                        <p>Creator: <span class="orange">Lee Min Wong</span></p>
+                    </div>
+                    <div class="members">
+                        <h3>Members</h3>
+                        <div class="member-img">
+                            <img src="https://images.unsplash.com/photo-1594070798380-3a1c3d299ae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+                                alt="">
+                            <img src="https://images.unsplash.com/photo-1595852302614-a2d9a5274100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+                                alt="">
+                            <img src="https://images.unsplash.com/photo-1573927366193-1300eee6da76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=618&q=80"
+                                alt="">
+                            <img src="https://unpkg.com/ionicons@5.1.2/dist/svg/add-outline.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list">
+                    <img class="pic"
+                        src="https://images.unsplash.com/photo-1593083628890-8ca78e81dd01?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+                    <div class="list-details">
+                        <h3>Group 12</h3>
+                        <p>Creator: <span>You</span></p>
+                    </div>
+                    <div class="members">
+                        <h3>Members</h3>
+                        <div class="member-img">
+                            <img src="https://images.unsplash.com/photo-1594070798380-3a1c3d299ae4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+                                alt="">
+                            <img src="https://images.unsplash.com/photo-1595852302614-a2d9a5274100?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+                                alt="">
+                            <img src="https://images.unsplash.com/photo-1573927366193-1300eee6da76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=618&q=80"
+                                alt="">
+                            <img src="https://unpkg.com/ionicons@5.1.2/dist/svg/add-outline.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+
+</html>
